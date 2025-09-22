@@ -4,7 +4,7 @@ Welcome to the **Karibu Kenya** project! This is a multi-page, fully responsive,
 
 The website offers a captivating and user-friendly experience, showcasing the beauty of Kenya with high-quality visuals from Pexels, smooth animations, and an intuitive booking interface.
 
-### ➡️ [Live Demo URL](https://your-username.github.io/tourism-kenya/)
+### ➡️ [Live Demo URL](https://karibu-kenya.netlify.app/)
 
 
 ---
@@ -40,7 +40,7 @@ The website offers a captivating and user-friendly experience, showcasing the be
     -   **Flexbox & Grid:** For creating complex, responsive layouts.
     -   **Custom Properties (Variables):** For an easily maintainable color scheme and typography.
     -   **Media Queries:** For the mobile-first responsive design.
--   **Vanilla JavaScript (ES6):** For all interactive functionalities without relying on external libraries.
+-   **JavaScript :** For all interactive functionalities without relying on external libraries.
 
 ---
 
