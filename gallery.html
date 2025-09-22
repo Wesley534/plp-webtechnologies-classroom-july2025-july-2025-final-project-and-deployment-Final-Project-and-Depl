@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Karibu Kenya</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html" class="nav-logo">Karibu Kenya</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                <li class="nav-item"><a href="destinations.html" class="nav-link">Destinations</a></li>
+                <li class="nav-item"><a href="gallery.html" class="nav-link active">Gallery</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>Moments from Kenya</h1>
+        </section>
+
+        <section class="gallery-grid container fade-in">
+            <div class="gallery-item"><img src="https://images.pexels.com/photos/326900/pexels-photo-326900.jpeg" alt="Zebra herd in savannah"></div>
+            <div class="gallery-item"><img src="https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg" alt="Close-up of a lion"></div>
+            <div class="gallery-item"><img src="https://images.pexels.com/photos/12632479/pexels-photo-12632479.jpeg" alt="Maasai tribe members"></div>
+            <div class="gallery-item"><img src="https://images.pexels.com/photos/4852554/pexels-photo-4852554.jpeg" alt="Giraffe against a sunset"></div>
+            <div class="gallery-item"><img src="https://images.pexels.com/photos/33992268/pexels-photo-33992268.jpeg" alt="Diani beach aerial view"></div>
+            <div class="gallery-item"><img src="https://images.pexels.com/photos/50611/elephants-africa-amboseli-animal-50611.jpeg" alt="Elephant family walking"></div>
+            <div class="gallery-item"><img src="https://images.pexels.com/photos/14776857/pexels-photo-14776857.jpeg" alt="Kenyan coffee beans"></div>
+            <div class="gallery-item"><img src="https://images.pexels.com/photos/86413/elephant-africa-okavango-delta-animal-86413.jpeg" alt="Elephants at a watering hole"></div>
+            <div class="gallery-item"><img src="https://images.pexels.com/photos/15893595/pexels-photo-15893595.jpeg" alt=" a cheettah"></div>
+
+        </section>
+
+        <!-- Lightbox -->
+        <div id="lightbox" class="lightbox">
+            <span class="close-btn">&times;</span>
+            <img class="lightbox-content" id="lightbox-img">
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Karibu Kenya Tours. All rights reserved.</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
